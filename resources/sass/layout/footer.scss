@@ -1,0 +1,65 @@
+.footer {
+    padding: 200px 0 100px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+
+    &-title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        h3 {
+            font-size: 8vw;
+            font-family: suisse, sans-serif;
+            padding: 0 3vw;
+        }
+    }
+
+    &-info {
+        margin-top: 2vw;
+        padding-left: 4vw;
+
+        &-list {
+            margin-bottom: 3vw;
+
+            label {
+              display: block;
+                margin-bottom: 1vw;
+                color: hsla(0, 0%, 100%, 0.75);
+                font-size: 1vw;
+            }
+
+            a {
+                display: block;
+                font-family: suisse, sans-serif;
+                font-weight: 900;
+                font-size: 1.7vw;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 640px) {
+    .footer {
+        display: block;
+
+        &-title {
+            display: block;
+        }
+
+        &-info {
+            margin-top: 40px;
+
+            a {
+                font-size: 22px;
+            }
+
+            label {
+                font-size: 14px;
+            }
+        }
+
+    }
+}
