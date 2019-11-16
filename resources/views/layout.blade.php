@@ -8,9 +8,9 @@
 
         <title>@yield('pageTitle')</title>
         <meta name="" content="">
-        <meta name="title" content="We human">
-        <meta name="description" content="Fearless Partner in Creativity. For the new digital world">
-        <meta name="keywords" content="we human">
+        <meta name="title" content="onepage">
+        <meta name="description" content="onepage voor CLE1-SPRINT3">
+        <meta name="keywords" content="onepage">
 
         <meta name="author" content="Rik Vermeulen">
         <link rel="author" href="humans.txt">
